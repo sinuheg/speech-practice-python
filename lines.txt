@@ -1,0 +1,48 @@
+Hello, I am a full stack software engineer with 15 years of experience.
+I have worked in big and small companies as well as in a e-commerce startup
+Monitors and alarms for Amazon
+I was working in the Amazon creative services team
+The team was in charge of a service called painter
+This service creates widgets to be inserted into the retail website
+For product pages and marketing campaigns
+We had problems with operational excellence
+The monitoring and alarm strategy was based on region and marketplace
+With this strategy we knew where the incident happened, but not what happened.
+Every time we needed to go to the logs to see what happened.
+This made our response time slower and made our on call more difficult.
+I proposed to change our monitors and alarms to be based on region and widget.
+This way, we would know which widget was exactly failing right away.
+The pagers we would receive would say the region, and the widget.
+For example, the latency of the carousel widget is failing in North America.
+Knowing the widget, we can quickly know if it is a dynamic or a static widget.
+If it was a dynamic widget, we could quickly check our downstream dependencies.
+If it was a static widget we could quickly debug our service.
+This without the need of diving deep into our logs.
+Making our operational response time faster and our on call shift lighter.
+there was some pushback from my team.
+A senior engineer argued that it would be difficult to create and maintain new monitors.
+My manager was concerned about how to make sure the new strategy worked.
+To convince them, I created a tech design document including solutions for these concerns.
+It contained a section introducing a script to automatically create and update monitors and alarms.
+It also contained a section explaining the rollout.
+I proposed a two week test period in which we will have both strategies working in parallel.
+Just to make sure that the new strategy was completely reliable.
+With this, I convinced my whole team and I was able to implement it.
+After the implementation, our on call shift was lighter.
+And we were able to solve issues, faster and more efficiently.
+We were all happy that our on call work became easier and lighter.
+Build together
+A senior designer in our team requested help with a workshop
+To help other designers Understand and learn about the steps 
+that developers follow to create a Shopify app
+she wanted an engineer to explain tech concepts
+and help troubleshooting while the designers completed the workshop
+I volunteered to help since public speaking is something that I want to get better at
+I completed the workshop in advance to know all the steps in detail
+Then I prepared the slides to explain the technical concepts used
+I prepared demos and recordings to make it more engaging
+I presented it first to my teammate, and she really liked it
+Then I presented it to the Director of design 
+On our organization To get his approval
+I received a lot of good feedback from the first group I presented it to
+due to the success, I presented two additional times to a total of 40 people.
